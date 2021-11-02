@@ -1,1 +1,0 @@
-<view class="data-v-0beb0f51"><u-button bind:click="__e" vue-id="ab133a3e-1" data-event-opts="{{[['^click',[['submit']]]]}}" class="data-v-0beb0f51" bind:__l="__l" vue-slots="{{['default']}}">提交</u-button></view>

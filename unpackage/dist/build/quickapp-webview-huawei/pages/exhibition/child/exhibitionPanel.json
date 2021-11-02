@@ -1,7 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
-    "u-button": "/node-modules/uview-ui/components/u-button/u-button"
-  }
-}

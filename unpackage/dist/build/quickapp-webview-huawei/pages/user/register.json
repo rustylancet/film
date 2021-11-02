@@ -1,8 +1,0 @@
-{
-  "usingComponents": {
-    "u-form": "/node-modules/uview-ui/components/u-form/u-form",
-    "u-form-item": "/node-modules/uview-ui/components/u-form-item/u-form-item",
-    "u-field": "/node-modules/uview-ui/components/u-field/u-field",
-    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap"
-  }
-}

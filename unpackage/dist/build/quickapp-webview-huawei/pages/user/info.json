@@ -1,9 +1,0 @@
-{
-  "usingComponents": {
-    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
-    "u-cell-item": "/node-modules/uview-ui/components/u-cell-item/u-cell-item",
-    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
-    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
-    "footer-tab": "/components/common/footerTab"
-  }
-}

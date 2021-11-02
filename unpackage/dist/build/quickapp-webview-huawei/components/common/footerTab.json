@@ -1,6 +1,0 @@
-{
-  "component": true,
-  "usingComponents": {
-    "u-tabbar": "/node-modules/uview-ui/components/u-tabbar/u-tabbar"
-  }
-}
