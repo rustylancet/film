@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-row": "/node-modules/uview-ui/components/u-row/u-row",
+    "u-col": "/node-modules/uview-ui/components/u-col/u-col",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "film": "/pages/user/child/film",
+    "footer-tab": "/components/common/footerTab"
+  }
+}

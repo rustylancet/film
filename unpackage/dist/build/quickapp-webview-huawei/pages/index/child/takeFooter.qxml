@@ -1,0 +1,1 @@
+<view class="takeFooter data-v-43b080bf"><u-button class="custom-style data-v-43b080bf" vue-id="d49773fe-1" shape="circle" type="error" data-event-opts="{{[['^click',[['takeOrder']]]]}}" bind:click="__e" bind:__l="__l" vue-slots="{{['default']}}">接单</u-button></view>

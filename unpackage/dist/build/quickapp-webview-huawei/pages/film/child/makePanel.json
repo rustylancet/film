@@ -1,0 +1,6 @@
+{
+  "component": true,
+  "usingComponents": {
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar"
+  }
+}

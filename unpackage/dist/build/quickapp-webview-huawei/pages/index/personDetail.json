@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "u-avatar": "/node-modules/uview-ui/components/u-avatar/u-avatar",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "footer-tab": "/components/common/footerTab",
+    "film": "/pages/index/child/film"
+  }
+}

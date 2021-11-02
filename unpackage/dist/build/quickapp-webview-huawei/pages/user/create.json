@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-form": "/node-modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/node-modules/uview-ui/components/u-form-item/u-form-item",
+    "u-radio-group": "/node-modules/uview-ui/components/u-radio-group/u-radio-group",
+    "u-radio": "/node-modules/uview-ui/components/u-radio/u-radio",
+    "u-input": "/node-modules/uview-ui/components/u-input/u-input",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "footer-tab": "/components/common/footerTab",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar"
+  }
+}

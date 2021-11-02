@@ -1,0 +1,1 @@
+<view id="footerTab"><u-tabbar bind:input="__e" class="tabbar" vue-id="10d9944a-1" list="{{list}}" bg-color="#FFFFFF" active-color="#eb3434" inactive-color="#a4a4a4" mid-button="{{true}}" icon-size="50" value="{{current}}" data-event-opts="{{[['^input',[['__set_model',['','current','$event',[]]]]]]}}" bind:__l="__l"></u-tabbar></view>

@@ -1,0 +1,83 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/orderDetail",
+    "pages/film/filmDetail",
+    "pages/index/personDetail",
+    "pages/exhibition/exhibition",
+    "pages/exhibition/exhibitionDetail",
+    "pages/film/film",
+    "pages/user/user",
+    "pages/user/myOrder",
+    "pages/user/myCollection",
+    "pages/user/login",
+    "pages/user/myAppointment",
+    "pages/user/appointmentDetail",
+    "pages/user/myFilm",
+    "pages/user/newFilm",
+    "pages/user/info",
+    "pages/user/update",
+    "pages/user/orders/orderDetail",
+    "pages/user/orders/orderDetail",
+    "pages/user/orders/failDetail",
+    "pages/user/orders/successDetail",
+    "pages/user/orders/chooseDetail",
+    "pages/user/orders/successPost",
+    "pages/user/create",
+    "pages/user/changePass",
+    "pages/exhibition/exhibitionClose",
+    "pages/code/test",
+    "pages/user/register"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationStyle": "custom"
+  },
+  "tabBar": {
+    "color": "#a4a4a4",
+    "selectedColor": "#eb3434",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "file-text",
+        "selectedIconPath": "file-text-fill",
+        "text": "招募",
+        "isDot": true
+      },
+      {
+        "pagePath": "pages/exhibition/exhibition",
+        "iconPath": "calendar",
+        "selectedIconPath": "calendar-fill",
+        "text": "展映"
+      },
+      {
+        "pagePath": "pages/user/create",
+        "iconPath": "plus-circle",
+        "selectedIconPath": "plus-circle-fill",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/film/film",
+        "iconPath": "play-right",
+        "selectedIconPath": "play-right-fill",
+        "text": "片库"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "account",
+        "selectedIconPath": "account-fill",
+        "text": "我的"
+      }
+    ]
+  },
+  "appType": "webapp",
+  "minPlatformVersion": 1070,
+  "name": "film2",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "package": "film2",
+  "usingComponents": {
+    "nav-bar": "/components/zhouWei-navBar/index"
+  }
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["components/common/footerTab"],{6381:function(t,e,n){"use strict";n.d(e,"b",(function(){return c})),n.d(e,"c",(function(){return o})),n.d(e,"a",(function(){return a}));var a={uTabbar:function(){return n.e("node-modules/uview-ui/components/u-tabbar/u-tabbar").then(n.bind(null,"a548"))}},c=function(){var t=this,e=t.$createElement;t._self._c},o=[]},"95d1":function(t,e,n){"use strict";var a=n("a852"),c=n.n(a);c.a},a852:function(t,e,n){},abd9:function(t,e,n){"use strict";n.r(e);var a=n("c87d"),c=n.n(a);for(var o in a)"default"!==o&&function(t){n.d(e,t,(function(){return a[t]}))}(o);e["default"]=c.a},c87d:function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a={name:"footerTab",data:function(){return{list:[{iconPath:"file-text",selectedIconPath:"file-text-fill",text:"招募",customIcon:!1,pagePath:"/pages/index/index"},{iconPath:"calendar",selectedIconPath:"calendar-fill",text:"展映",customIcon:!1,pagePath:"/pages/exhibition/exhibition"},{iconPath:"plus-circle",selectedIconPath:"plus-circle-fill",text:"发布",midButton:!0,customIcon:!1,pagePath:"/pages/user/create"},{iconPath:"play-right",selectedIconPath:"play-right-fill",text:"片库",customIcon:!1,pagePath:"/pages/film/film"},{iconPath:"account",selectedIconPath:"account-fill",text:"我的",isDot:!1,customIcon:!1,pagePath:"/pages/user/user"}],current:0}}};e.default=a},e346:function(t,e,n){"use strict";n.r(e);var a=n("6381"),c=n("abd9");for(var o in c)"default"!==o&&function(t){n.d(e,t,(function(){return c[t]}))}(o);n("95d1");var u,i=n("f0c5"),r=Object(i["a"])(c["default"],a["b"],a["c"],!1,null,null,null,!1,a["a"],u);e["default"]=r.exports}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'components/common/footerTab-create-component',
+    {
+        'components/common/footerTab-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('8adf')['createComponent'](__webpack_require__("e346"))
+        })
+    },
+    [['components/common/footerTab-create-component']]
+]);

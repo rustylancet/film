@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon",
+    "u-tag": "/node-modules/uview-ui/components/u-tag/u-tag",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "order-panel": "/pages/index/child/orderPanel",
+    "footer-tab": "/components/common/footerTab"
+  }
+}

@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/user/child/myPost"],{7376:function(t,e,r){"use strict";r.r(e);var n=r("e682"),u=r("88a8");for(var o in u)"default"!==o&&function(t){r.d(e,t,(function(){return u[t]}))}(o);r("f490");var a,s=r("f0c5"),i=Object(s["a"])(u["default"],n["b"],n["c"],!1,null,"24469fc0",null,!1,n["a"],a);e["default"]=i.exports},"88a8":function(t,e,r){"use strict";r.r(e);var n=r("f992"),u=r.n(n);for(var o in n)"default"!==o&&function(t){r.d(e,t,(function(){return n[t]}))}(o);e["default"]=u.a},b6b7:function(t,e,r){},e682:function(t,e,r){"use strict";r.d(e,"b",(function(){return u})),r.d(e,"c",(function(){return o})),r.d(e,"a",(function(){return n}));var n={uAvatar:function(){return r.e("node-modules/uview-ui/components/u-avatar/u-avatar").then(r.bind(null,"af0d"))},uTag:function(){return r.e("node-modules/uview-ui/components/u-tag/u-tag").then(r.bind(null,"9e03"))}},u=function(){var t=this,e=t.$createElement;t._self._c},o=[]},f490:function(t,e,r){"use strict";var n=r("b6b7"),u=r.n(n);u.a},f992:function(t,e,r){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var n={name:"myPost",props:["order"],data:function(){return{state:"error",stateText:"等待中"}},methods:{jump:function(t,e){this.$Router.push({path:t,query:e})},jumpDetail:function(){var t=this.order.result;0==t?this.jump("/pages/user/orders/chooseDetail",{order_id:this.order.order_id}):this.jump("/pages/user/orders/successPost",{order_id:this.order.order_id})},getState:function(){var t=this.order.result;0==t?(this.state="error",this.stateText="去选择"):(this.state="info",this.stateText="已结束")}},mounted:function(){this.getState()}};e.default=n}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/user/child/myPost-create-component',
+    {
+        'pages/user/child/myPost-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('8adf')['createComponent'](__webpack_require__("7376"))
+        })
+    },
+    [['pages/user/child/myPost-create-component']]
+]);

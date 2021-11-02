@@ -1,0 +1,206 @@
+{
+    "easycom" : {
+        "^u-(.*)" : "uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages" : [
+		
+		{
+		    "path" : "pages/user/login",
+		    "name" : "login",
+		    "title" : "登录"
+		},
+        {
+            "path" : "pages/index/index",
+            "name" : "index",
+            "title" : "首页",
+            "enablePullDownRefresh" : true
+        },
+        {
+            "path" : "pages/index/orderDetail",
+            "name" : "orderDetail",
+            "title" : "需求详情"
+        },
+        {
+            "path" : "pages/film/filmDetail",
+            "name" : "filmDetail",
+            "title" : "作品详情"
+        },
+        {
+            "path" : "pages/index/personDetail",
+            "name" : "personDetail",
+            "title" : "人才详情"
+        },
+        {
+            "path" : "pages/exhibition/exhibition",
+            "name" : "exhibition",
+            "title" : "展映预约"
+        },
+        {
+            "path" : "pages/exhibition/exhibitionDetail",
+            "name" : "exhibitionDetail",
+            "title" : "展映详情"
+        },
+        {
+            "path" : "pages/film/film",
+            "name" : "film",
+            "title" : "片库"
+        },
+        {
+            "path" : "pages/user/user",
+            "name" : "user",
+            "title" : "个人中心"
+        },
+        {
+            "path" : "pages/user/myOrder",
+            "name" : "myOrder",
+            "title" : "我的招募"
+        },
+        {
+            "path" : "pages/user/myCollection",
+            "name" : "myCollection",
+            "title" : "我的收藏"
+        },
+        {
+            "path" : "pages/user/myAppointment",
+            "name" : "myAppointment",
+            "title" : "我的预约"
+        },
+        {
+            "path" : "pages/user/appointmentDetail",
+            "name" : "appointmentDetail",
+            "title" : "预约详情"
+        },
+        {
+            "path" : "pages/user/myFilm",
+            "name" : "myFilm",
+            "title" : "我的作品"
+        },
+        {
+            "path" : "pages/user/newFilm",
+            "name" : "newFilm",
+            "title" : "新建作品"
+        },
+        {
+            "path" : "pages/user/info",
+            "name" : "info",
+            "title" : "个人信息"
+        },
+        {
+            "path" : "pages/user/update",
+            "name" : "update",
+            "title" : "修改信息"
+        },
+        {
+            "path" : "pages/user/orders/orderDetail",
+            "name" : "orderDetail",
+            "title" : "需求详情"
+        },
+        {
+            "path" : "pages/user/orders/orderDetail",
+            "name" : "orderDetail",
+            "title" : "需求详情"
+        },
+        {
+            "path" : "pages/user/orders/failDetail",
+            "name" : "failDetail",
+            "title" : "需求详情"
+        },
+        {
+            "path" : "pages/user/orders/successDetail",
+            "name" : "successDetail",
+            "title" : "剧组详情"
+        },
+        {
+            "path" : "pages/user/orders/choose",
+            "name" : "choose",
+            "title" : "剧组详情"
+        },
+        {
+            "path" : "pages/user/orders/successPost",
+            "name" : "successPost",
+            "title" : "剧组详情"
+        },
+        {
+            "path" : "pages/user/create",
+            "name" : "create",
+            "title" : "发布需求"
+        },
+        {
+            "path" : "pages/user/changePass",
+            "name" : "changePass",
+            "title" : "密码修改"
+        },
+        {
+            "path" : "pages/exhibition/exhibitionClose",
+            "name" : "exhibitionClose",
+            "title" : "展映详情"
+        },
+        {
+            "path" : "pages/user/register",
+            "name" : "register",
+            "title" : "注册"
+        },
+        {
+            "path" : "pages/user/orders/chooseDetail",
+            "style" : {}
+        }
+    ],
+    "globalStyle" : {
+        "navigationStyle" : "custom"
+    },
+    "tabBar" : {
+        "color" : "#a4a4a4",
+        "selectedColor" : "#eb3434",
+        "backgroundColor" : "#FFFFFF",
+        "list" : [
+            {
+                "pagePath" : "pages/index/index",
+                "iconPath" : "file-text",
+                "selectedIconPath" : "file-text-fill",
+                "text" : "招募",
+                "isDot" : true
+            },
+            // "customIcon": false,
+            {
+                "pagePath" : "pages/exhibition/exhibition",
+                "iconPath" : "calendar",
+                "selectedIconPath" : "calendar-fill",
+                "text" : "展映"
+            },
+            // "customIcon": false,
+            {
+                "pagePath" : "pages/user/create",
+                "iconPath" : "plus-circle",
+                "selectedIconPath" : "plus-circle-fill",
+                "text" : "发布"
+            },
+            // "customIcon": false,
+            {
+                "pagePath" : "pages/film/film",
+                "iconPath" : "play-right",
+                "selectedIconPath" : "play-right-fill",
+                "text" : "片库"
+            },
+            // "customIcon": false,
+            {
+                "pagePath" : "pages/user/user",
+                "iconPath" : "account",
+                "selectedIconPath" : "account-fill",
+                "text" : "我的"
+            }
+        ]
+    },
+    // "isDot": false,
+    // "customIcon": false,
+    "condition" : {
+        //模式配置，仅开发期间生效
+        "current" : 0, //当前激活的模式(list 的索引项)
+        "list" : [
+            {
+                "name" : "", //模式名称
+                "path" : "pages/user/login", //启动页面，必选
+                "query" : "" //启动参数，在页面的onLoad函数里面得到
+            }
+        ]
+    }
+}

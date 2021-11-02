@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-image": "/node-modules/uview-ui/components/u-image/u-image",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "footer-tab": "/components/common/footerTab",
+    "make-panel": "/pages/film/child/makePanel"
+  }
+}

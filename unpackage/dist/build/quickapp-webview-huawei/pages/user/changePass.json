@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-form": "/node-modules/uview-ui/components/u-form/u-form",
+    "u-form-item": "/node-modules/uview-ui/components/u-form-item/u-form-item",
+    "u-input": "/node-modules/uview-ui/components/u-input/u-input",
+    "u-button": "/node-modules/uview-ui/components/u-button/u-button",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "footer-tab": "/components/common/footerTab"
+  }
+}

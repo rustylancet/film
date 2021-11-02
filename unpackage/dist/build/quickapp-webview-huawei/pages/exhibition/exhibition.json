@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "u-subsection": "/node-modules/uview-ui/components/u-subsection/u-subsection",
+    "footer-tab": "/components/common/footerTab",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "exhibition-panel": "/pages/exhibition/child/exhibitionPanel",
+    "exhibition-closepanel": "/pages/exhibition/child/exhibitionClosepanel"
+  }
+}

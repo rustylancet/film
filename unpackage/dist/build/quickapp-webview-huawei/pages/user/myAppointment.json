@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "u-gap": "/node-modules/uview-ui/components/u-gap/u-gap",
+    "uni-nav-bar": "/components/uni-nav-bar/uni-nav-bar",
+    "appointment": "/pages/user/child/appointment",
+    "footer-tab": "/components/common/footerTab"
+  }
+}
